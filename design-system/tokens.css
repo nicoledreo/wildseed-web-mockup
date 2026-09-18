@@ -1,0 +1,87 @@
+
+
+:root {
+  
+  --ds-primary:        #1E4884;   
+  --ds-primary-deep:   #051E37;   
+  --ds-primary-soft:   #D2EDFF;   
+  --ds-accent:         #E2FB5B;   
+  --ds-accent-soft:    #F0FBA8;
+  --ds-signature:      #F5B265;   
+
+  
+  --ds-accent-ink:     #E2FB5B;
+
+  --ds-bg-surface:     #051E37;
+  --ds-bg-surface-2:   #0C3053;
+
+  
+  --ds-bg-warm:        #22333F;
+
+  --ds-ink:            #F7F4F1;
+  --ds-ink-soft:       #B9C6D2;
+  --ds-ink-on-dark:    #F7FAFC;
+  --ds-ink-heading:    #F7F4F1;   
+  
+  --ds-line:           #5C7C9E;
+  --ds-scrim:          rgba(5,30,55,.72);
+
+  
+  --ds-warning:        #C62828;
+  --ds-warning-soft:   #F7D4D4;
+
+  
+  --ds-font-display:   'Koulen', Impact, 'Arial Narrow', sans-serif;
+  --ds-font-body:      'Karla', system-ui, -apple-system, sans-serif;
+  --ds-font-mono:      ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  
+  --ds-r-sm:   8px;
+  --ds-r-md:   10px;
+  --ds-r-lg:   14px;
+  --ds-r-xl:   20px;
+  --ds-r-pill: 999px;
+
+  --ds-shadow-card: 0 1px 2px rgba(0,0,0,.28);
+  --ds-shadow-lift: 0 18px 40px rgba(0,0,0,.34);
+
+  
+  --ds-space-2xs: 4px;
+  --ds-space-xs:  8px;
+  --ds-space-sm:  12px;
+  --ds-space-md:  16px;
+  --ds-space-lg:  24px;
+  --ds-space-xl:  40px;
+  --ds-space-2xl: 64px;
+  --ds-space-3xl: 96px;
+  --ds-section-py:    128px;
+  --ds-container-max: 1240px;
+
+  --ds-ease: cubic-bezier(.22,.61,.36,1);
+  --ds-dur:  320ms;
+
+  
+  --ds-grad-brand: linear-gradient(135deg, #1E4884 0%, #0C3053 100%);
+  
+  --ds-grad-text:  linear-gradient(100deg, #E2FB5B 0%, #F5B265 100%);
+
+  
+  --ds-glass-bg:     rgba(12,48,83,.58);
+  --ds-glass-blur:   18px;
+  --ds-glass-border: 1px solid rgba(247,244,241,.20);
+  --ds-hairline:     rgba(247,244,241,.16);
+  --ds-inset-hi:     inset 0 1px 0 rgba(255,255,255,.14);
+  --ds-glow:         0 0 0 1px rgba(245,178,101,.28), 0 18px 48px rgba(245,178,101,.22);
+  --ds-glow-wash:    radial-gradient(80% 60% at 50% 0%, rgba(245,178,101,.30), transparent 72%);
+  --ds-grain:        .03;
+  --ds-divider-h:    96px;
+  --ds-dur-fast:     220ms;
+  --ds-dur-slow:     520ms;
+  --ds-ease-out:     cubic-bezier(.22,.61,.36,1);
+
+  
+  --ds-icon-tint: brightness(0) saturate(100%) invert(93%) sepia(38%) saturate(1200%) hue-rotate(6deg) brightness(105%) contrast(96%);
+}
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
