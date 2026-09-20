@@ -14,7 +14,7 @@ and no price is published anywhere.
 
 ## Live preview
 
-PAGES_URL_PLACEHOLDER
+**https://nicoledreo.github.io/wildseed-web-mockup/**
 
 ## Running it locally
 
@@ -31,14 +31,14 @@ a few assets are more reliable over `http://`.
 ## What is in here
 
 ```
-index.html                 the whole page — 12 sections, anchor navigation
+index.html                 the whole page — 11 sections, anchor navigation
 design-system/
   tokens.css               the --ds-* design tokens (colour, type, space, radius, motion)
   structural.css           the shared component layer
   overrides.css            this build's layout and art direction
   fonts.css + fonts/       self-hosted Koulen and Karla (no third-party font CDN)
   site.js                  nav drawer, scroll reveals, count-ups
-assets/                    the 20 images the page actually references
+assets/                    the images the page and stylesheets actually reference
 ```
 
 ## Design direction
@@ -60,11 +60,14 @@ This matters, and the three categories are not interchangeable:
 | Category | Files | Notes |
 |---|---|---|
 | **Real client photographs** | `cart-filling-hero`, `lab-process-floor`, `lab-benches`, `extraction-bench-detail`, `facility-texture` | Supplied by the client. Show their actual Arcata facility. |
-| **From the client's own website** | `wildseed-logo-white`, `about-field-wide`, `about-tile-1/2/3` | Their logo and the photographs from their existing About section. The About copy is theirs too. |
-| **AI-generated placeholder** | `gen-rosin-product`, `gen-cart-product`, `gen-cart-closeup`, `gen-manufacturing`, and all `coast-*` / `redwood-*` / `humboldt-*` / `river-*` / `bluff-*` / `dawn-*` landscape frames | Illustrative stock only. The product frames are **generic, unbranded objects — not the client's actual goods**, and every one says so in its `alt` text. The landscape frames are atmosphere, not the client's premises. |
+| **From the client's own website** | `wildseed-logo-white`, `about-tile-1/2/3` | Their logo and the photographs from their existing About section. The About copy is theirs too. |
+| **AI-generated placeholder** | `gen-rosin-jar`, `gen-cart-wood`, `gen-cart-closeup`, `gen-manufacturing`, `gen-lab-interior`, `gen-field-walk`, `svc-cart-filling`, `svc-rosin-press`, and all `coast-*` / `redwood-*` / `humboldt-*` / `river-*` / `bluff-*` / `dawn-*` landscape frames | Illustrative stock only. The product frames are **generic, unbranded objects — not the client's actual goods**, and every one says so in its `alt` text. The landscape frames are atmosphere, not the client's premises. |
 
 The two product packaging photographs (`product-live-sauce-*`) are from the client's public
 wholesale listing and show real retail packaging.
+> **Note on `gen-field-walk`:** the field photograph on the Arcata band is a *generated restage* of a
+> photograph on the client's site, made at higher resolution to survive full-bleed display. It shows
+> different people on a different farm and is not the client's photograph.
 
 ## Not ready to publish
 
@@ -80,8 +83,9 @@ This concept is not production-ready. Open items, in rough order of importance:
    none should until a current certificate is in hand.
 4. **The quote inbox is a placeholder** in this copy. The real address is unconfirmed.
 5. **No B2B phone number** has been supplied for the facility.
-6. **Only five client photographs exist**, so three of the five service-card backgrounds are
-   the nearest available image rather than a literal match for that service.
+6. **Only five client photographs exist.** Two of the five service-card backgrounds now use
+   generated frames, and the remaining three use the nearest available client photograph rather
+   than a literal match for that service.
 7. **An age gate** is present on the client's live site and is not reproduced here.
 
 ## How this public copy differs from the review build
